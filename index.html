@@ -1,70 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>EnergyAtlas — North American Energy Projects</title>
-  <meta name="description" content="Explore current and future energy projects shaping North America — Gas, Wind, Solar, Hydro, and more." />
-  <style>
-    :root{
-      --bg:#fcfcfc;
-      --text:#111;
-      --muted:#444;
-      --brand:#0f172a;
-      --brand-2:#14b8a6;
-      --radius:12px;
-      --maxw:1080px;
-    }
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
-    header{background:white;box-shadow:0 1px 4px rgba(0,0,0,.05);position:sticky;top:0;z-index:10;}
-    .container{max-width:var(--maxw);margin:0 auto;padding:0 16px;}
-    nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;}
-    .logo{font-weight:700;font-size:20px;color:var(--brand)}
-    .nav-links a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:500}
-    .hero{padding:80px 0;text-align:center;}
-    .hero h1{font-size:clamp(26px,4vw,42px);color:var(--text);margin-bottom:12px}
-    .hero p{color:var(--muted);font-size:18px;max-width:700px;margin:0 auto;}
-    a.btn{display:inline-block;background:linear-gradient(90deg,var(--brand),var(--brand-2));color:white;padding:14px 28px;border-radius:var(--radius);text-decoration:none;margin-top:24px;font-weight:500}
-    footer{background:#f1f5f9;padding:20px 0;text-align:center;color:var(--muted);margin-top:40px;font-size:14px}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EnergyAtlas — Mapping the Energy Transition in North America</title>
+  <meta name="description" content="Explore the energy transition across Canada and the United States — gas, wind, solar, hydro, and more. See key projects shaping the future." />
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+
 <body>
   <header>
-    <div class="container nav">
-      <nav>
+    <div class="container">
+      <div class="nav">
         <div class="logo">EnergyAtlas</div>
-        <div class="nav-links">
-          <a href="index.html">Home</a>
+        <nav>
+          <a href="index.html" class="active">Home</a>
           <a href="projects.html">Projects</a>
           <a href="#contact">Contact</a>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main>
-    <section id="home" class="hero">
+    <section class="hero">
       <div class="container">
-        <h1>Energy projects shaping North America’s future</h1>
-        <p>Explore the energy projects and technologies transforming the North American energy landscape.</p>
-        <a href="projects.html" class="btn">Explore Projects</a>
+        <h1>Discover the Energy Landscape of North America</h1>
+        <p>
+          Tracking the projects driving change across Canada and the United States — 
+          from natural gas to renewables — through clear, organized insights.
+        </p>
+        <a href="projects.html" class="cta">Explore Projects</a>
       </div>
     </section>
 
-    <section id="contact" class="container" style="text-align:center;padding:60px 0;">
-      <h2>Contact</h2>
-      <p>If you’re leading or involved in an energy project and would like to feature it on EnergyAtlas, reach out to us.</p>
-      <a href="mailto:contact@energyatlas.com" class="btn">Send Message</a>
+    <section class="intro">
+      <div class="container">
+        <h2>What is EnergyAtlas?</h2>
+        <p>
+          EnergyAtlas provides a visual and structured view of major energy projects 
+          across North America. Our goal is to make information more accessible — 
+          for professionals, analysts, and anyone interested in the energy transition.
+        </p>
+      </div>
     </section>
   </main>
 
   <footer>
-    © <span id="year"></span> EnergyAtlas — Independent energy project directory for North America.
+    <div class="container">
+      <p>© <span id="year"></span> EnergyAtlas — Mapping the Pulse of North American Energy.</p>
+    </div>
   </footer>
 
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
