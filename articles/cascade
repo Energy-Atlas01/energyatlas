@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cascade Power Plant – Alberta, Canada | EnergyAtlas</title>
+  <meta name="description" content="Overview of the Cascade Power Plant, a 900 MW combined-cycle natural gas facility in Alberta, Canada, developed by Siemens Energy and Kineticor." />
+  <meta name="keywords" content="Cascade Power Plant, Siemens Energy, Alberta, Canada, Gas Power, Energy Project, Combined Cycle" />
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.4rem;
+      color: #0f172a;
+    }
+
+    .meta {
+      color: #555;
+      font-size: 0.95rem;
+      margin-bottom: 1.2rem;
+    }
+
+    img.hero {
+      width: 100%;
+      max-width: 850px;
+      display: block;
+      margin: 0 auto 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      color: #006b5f;
+      width: 35%;
+    }
+
+    .summary-box {
+      background: #f8fa
