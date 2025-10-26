@@ -6,7 +6,7 @@
   <title>Projects — EnergyAtlas</title>
   <meta name="description" content="Browse current and upcoming energy projects in North America — categorized by country, industry, and status." />
   <style>
-    :root{
+    :root {
       --bg:#fcfcfc;
       --text:#111;
       --muted:#555;
@@ -15,25 +15,23 @@
       --radius:12px;
       --maxw:1080px;
     }
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
-    header{background:white;box-shadow:0 1px 4px rgba(0,0,0,.05);position:sticky;top:0;z-index:10;}
-    .container{max-width:var(--maxw);margin:0 auto;padding:0 16px;}
-    nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;}
-    .logo{font-weight:700;font-size:20px;color:var(--brand)}
-    .nav-links a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:500}
-    h1{text-align:center;font-size:clamp(26px,4vw,36px);margin:40px 0 20px;}
-    .filters{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-bottom:30px;}
-    select{padding:10px 14px;border:1px solid #ccc;border-radius:8px;min-width:160px;font-size:14px;}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;}
-    .card{background:white;border-radius:var(--radius);box-shadow:0 2px 6px rgba(0,0,0,.06);overflow:hidden;transition:transform .2s;}
-    .card:hover{transform:translateY(-3px);}
-    .card img{width:100%;height:160px;object-fit:cover;}
-    .card .info{padding:16px;}
-    .card .info h3{margin-bottom:8px;font-size:18px;color:var(--brand);}
-    .status{font-size:13px;background:#e2e8f0;padding:4px 10px;border-radius:6px;display:inline-block;margin-bottom:8px;color:#333;}
-    .card .info p{font-size:15px;color:var(--muted);}
-    footer{background:#f1f5f9;padding:20px 0;text-align:center;color:var(--muted);margin-top:40px;font-size:14px;}
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:Inter,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+    header { background:white; box-shadow:0 1px 4px rgba(0,0,0,.05); position:sticky; top:0; z-index:10; }
+    .container { max-width:var(--maxw); margin:0 auto; padding:0 16px; }
+    nav { display:flex; justify-content:space-between; align-items:center; padding:16px 0; }
+    .logo { font-weight:700; font-size:20px; color:var(--brand); }
+    .nav-links a { margin-left:18px; text-decoration:none; color:var(--muted); font-weight:500; }
+    h1 { text-align:center; font-size:clamp(26px,4vw,36px); margin:40px 0 20px; }
+    .filters { display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-bottom:30px; }
+    select { padding:10px 14px; border:1px solid #ccc; border-radius:8px; min-width:160px; font-size:14px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px; }
+    .card { background:white; border-radius:var(--radius); box-shadow:0 2px 6px rgba(0,0,0,.06); padding:20px; transition:transform .2s; }
+    .card:hover { transform:translateY(-3px); }
+    .card .info h3 { margin-bottom:8px; font-size:18px; color:var(--brand); }
+    .status { font-size:13px; background:#e2e8f0; padding:4px 10px; border-radius:6px; display:inline-block; margin-bottom:8px; color:#333; }
+    .card .info p { font-size:15px; color:var(--muted); }
+    footer { background:#f1f5f9; padding:20px 0; text-align:center; color:var(--muted); margin-top:40px; font-size:14px; }
   </style>
 </head>
 <body>
@@ -76,23 +74,21 @@
 
     <div class="grid">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1581092334221-1c8a5b1aa4b1?auto=format&fit=crop&w=1200&q=80" alt="Gas Project">
         <div class="info">
           <span class="status">Under Construction</span>
           <h3><a href="article.html" style="text-decoration:none;color:inherit;">Cascade Power Plant — Alberta, Canada</a></h3>
           <p>900 MW combined-cycle natural gas project supplying 8% of Alberta’s power demand. Led by Siemens Energy & Kineticor.</p>
         </div>
       </div>
-    
-    <div class="card">
-  <img src="https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?auto=format&fit=crop&w=1200&q=80" alt="Gas Power Plant Example">
-  <div class="info">
-    <span class="status">Operational</span>
-    <h3><a href="article-gas-example.html" style="text-decoration:none;color:inherit;">Cascade Power Plant – Alberta, Canada (New Format)</a></h3>
-    <p>Example article built using the new EnergyAtlas structure and style guide for gas projects.</p>
-  </div>
-</div>
-</div>
+
+      <div class="card">
+        <div class="info">
+          <span class="status">Operational</span>
+          <h3><a href="article-gas-example.html" style="text-decoration:none;color:inherit;">Cascade Power Plant – Alberta, Canada (New Format)</a></h3>
+          <p>Example article built using the new EnergyAtlas structure and style guide for gas projects.</p>
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer>
