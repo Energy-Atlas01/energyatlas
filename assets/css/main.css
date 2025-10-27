@@ -190,7 +190,6 @@ main {
   flex: 1 0 auto;
 }
 
-/* -------- HERO SECTION -------- */
 .hero {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(239, 245, 243, 0.9) 100%);
   text-align: center;
